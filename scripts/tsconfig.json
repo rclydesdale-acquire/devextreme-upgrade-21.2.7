@@ -1,0 +1,36 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "allowJs": false,
+      "declaration": false,
+      "listEmittedFiles": false,
+      "module": "ES2020",
+      "noEmitOnError": false,
+      "noImplicitAny": false,
+      "removeComments": false,
+      "sourceMap": true,
+      "target": "ES2021",
+      "lib": ["dom", "ES2021", "ESNext.Intl"],
+      "outDir": "output",
+      "incremental": true,
+      "types": [
+        "jquery",
+        "react",
+        "react-dom"
+      ],
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "jsx": "react",
+      "baseUrl": ".",
+      "paths": {
+        "csstype": ["../node_modules/csstype/index.d.ts"]
+      }
+    },
+    "exclude": [
+      "node_modules",
+      "output"
+    ],
+    "include": [
+      "**/*.ts*"
+    ]
+  }
